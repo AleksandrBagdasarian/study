@@ -1,6 +1,4 @@
 # 1st program
-from pprint import PrettyPrinter
-
 print((9 ** 0.5)*5)
 
 # 2nd program
