@@ -5,7 +5,7 @@ print(immutable_var)
 # print(immutable_var)
 # попытка изменить значение кортежа привела к ошибке, так как кортеж не поддерживает обращение по элементам
 # при этом можно изменить значение списка, который является частью кортежа
-immutable_var[4][1] = str('modify')
+immutable_var[4][1] = 'modify'
 print(immutable_var)
 mutable_list = [10 , 15 , '18.11.2024' , True , [99, 98]]
 print(mutable_list)
