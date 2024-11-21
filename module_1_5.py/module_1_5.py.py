@@ -28,3 +28,4 @@ print('Extend' not in mutable_list)
 print(mutable_list[2:5])
 # выводим часть списка с помощью индексов с шагом 2
 print(mutable_list[::2])
+print ('test')
