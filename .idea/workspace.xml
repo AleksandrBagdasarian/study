@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="Additional task" />
+    <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="Additional task">
+      <change afterPath="$PROJECT_DIR$/module_2_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +52,8 @@
     "Python.module_1_5.py.executor": "Run",
     "Python.module_1_6.executor": "Run",
     "Python.module_1_additional_task.executor": "Run",
+    "Python.module_2_2.executor": "Run",
+    "Python.module_2_3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -107,5 +112,15 @@
     <MESSAGE value="Additional task" />
     <MESSAGE value="'if, elif, else'" />
     <option name="LAST_COMMIT_MESSAGE" value="'if, elif, else'" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_2_3.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
