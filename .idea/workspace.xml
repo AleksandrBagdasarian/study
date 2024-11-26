@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="'cycle while'">
-      <change afterPath="$PROJECT_DIR$/module_2_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="'get_matrix'">
+      <change afterPath="$PROJECT_DIR$/module_2_5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.cycle.executor": "Run",
-    "Python.module_1_5.py.executor": "Run",
-    "Python.module_1_6.executor": "Run",
-    "Python.module_1_additional_task.executor": "Run",
-    "Python.module_2_2.executor": "Run",
-    "Python.module_2_3.executor": "Run",
-    "Python.module_2_4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/PythonProjects/Test/study",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.cycle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_1_5.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_1_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_1_additional_task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_2_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_2_4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PythonProjects/Test/study&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PythonProjects\Test\study" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -102,7 +106,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732561572514</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="'get_matrix'">
+      <option name="closed" value="true" />
+      <created>1732620820342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732620820342</updated>
+    </task>
+    <task id="LOCAL-00005" summary="'get_matrix'">
+      <option name="closed" value="true" />
+      <created>1732620839411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732620839411</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +141,7 @@
     <MESSAGE value="Additional task" />
     <MESSAGE value="'if, elif, else'" />
     <MESSAGE value="'cycle while'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'cycle while'" />
+    <MESSAGE value="'get_matrix'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'get_matrix'" />
   </component>
 </project>
