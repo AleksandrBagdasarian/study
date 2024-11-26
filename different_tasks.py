@@ -36,3 +36,13 @@ def my_fib(n):
 n = int(input('Введите количество числе в последовательности Фибаначи: '))
 list_of_fib = my_fib(n)
 print(list_of_fib)
+# Трехзначные и четырехзначные числа армстронга
+armstrong_list = []
+for i in range(100, 9999):
+    digits = list(str(i))
+    value = 0
+    for j in range(len(digits)):
+        value += int(digits[j]) ** len(digits)
+        if value == i and j == len(digits) - 1:
+                armstrong_list.append(i)
+print(armstrong_list)
