@@ -12,7 +12,7 @@ def string_info(string):
 # Программа для проверки значения в списке
 def  is_contains (string, list_to_search):
       count_calls()
-      is_cont = string.upper() in [s.upper() for s in list_to_search]
+      is_cont = string.upper() in [i.upper() for i in list_to_search]
       return is_cont
 print(string_info('BaGdaSaRIAN'))
 print(string_info('AleKSAndr'))
