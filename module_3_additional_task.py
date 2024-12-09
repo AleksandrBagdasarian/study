@@ -40,7 +40,7 @@ data_structure = [
 result = calculate_structure_sum(data_structure)
 print(result)
 
-# Вариант 2 объединение похожих процессов через оператор or
+# Вариант 2 объединение похожих процессов
 def calculate_structure_sum_2(data_2):
     """
     Функция будет запускать проверку раз за разом пока по итогу не получит значение типа int или str
@@ -48,12 +48,12 @@ def calculate_structure_sum_2(data_2):
     amount_2 = 0
     if isinstance(data_2, dict):
         for key_2, value_2 in data_2.items():
-            amount_2 += calculate_structure_sum(key_2)
-            amount_2 += calculate_structure_sum(value_2)
-    elif isinstance(data_2, list or set or tuple):
+            amount_2 += calculate_structure_sum_2(key_2)
+            amount_2 += calculate_structure_sum_2(value_2)
+    elif isinstance(data_2, (list, set, tuple)):
         for i in data_2:
-            amount_2 += calculate_structure_sum(i)
-    elif isinstance(data_2, int or float):
+            amount_2 += calculate_structure_sum_2(i)
+    elif isinstance(data_2, (int, float)):
         amount_2 += data_2
     elif isinstance(data_2, str):
         amount_2 += len(data_2)
