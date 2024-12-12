@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="'single_root_words'">
-      <change afterPath="$PROJECT_DIR$/module_3_additional_task.py" afterDir="false" />
+    <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="'Recursion'">
+      <change afterPath="$PROJECT_DIR$/fake_math.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_4_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/true_math.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study" beforeDir="false" afterPath="$PROJECT_DIR$/study" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +33,12 @@
     &quot;assignee&quot;: &quot;AleksandrBagdasarian&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/AleksandrBagdasarian/study.git&quot;,
-    &quot;accountId&quot;: &quot;dc0ed3b1-c3cd-4865-95ef-e99ab2ea527b&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AleksandrBagdasarian/study.git",
+    "accountId": "30073c1f-b012-488b-aedf-a0d364d79006"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -52,7 +55,8 @@
     "Python._pydev_execfile.executor": "Debug",
     "Python.calk.executor": "Run",
     "Python.cycle.executor": "Run",
-    "Python.different_tasks.executor": "Debug",
+    "Python.different_tasks.executor": "Run",
+    "Python.fake_math.executor": "Run",
     "Python.module_1_5.py.executor": "Run",
     "Python.module_1_6.executor": "Run",
     "Python.module_1_additional_task.executor": "Run",
@@ -67,6 +71,7 @@
     "Python.module_3_4.executor": "Run",
     "Python.module_3_5.executor": "Run",
     "Python.module_3_additional_task.executor": "Run",
+    "Python.true_math.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -82,7 +87,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -284,14 +289,9 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_3_4.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/module_3_additional_task.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="39" />
+          <line>47</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
