@@ -11,9 +11,9 @@ class House:
             # Цикл для перебора этажей с 1 до указанного (range исключает крайний объект конца, поэтому +1)
             for current_floor in range(1, new_floor + 1):
                 # Выводим этаж после каждой итерации
-                print(current_floor)
+                return (current_floor)
         else:
-            print('Такого этажа не существует')
+            return 'Такого этажа не существует'
 
     # прописываем спец метод len и str
     def __len__(self):
