@@ -1,4 +1,4 @@
-# Создаем класс House с 2 атрибутами имененм и количеством этажей
+# Создаем класс House с 2 атрибутами именем и количеством этажей
 class House:
     def __init__(self, name, number_of_floors):
         self.name = name
@@ -11,7 +11,7 @@ class House:
             # Цикл для перебора этажей с 1 до указанного (range исключает крайний объект конца, поэтому +1)
             for current_floor in range(1, new_floor + 1):
                 # Выводим этаж после каждой итерации
-                return (current_floor)
+                return current_floor
         else:
             return 'Такого этажа не существует'
 
@@ -59,23 +59,26 @@ class House:
             return f'невозможно сравнить ({type(self)} и {type(other)}'
 
     def __add__(self, value):
-        if isinstance(self, House) and isinstance(value, int):
-            self.number_of_floors = self.number_of_floors + value
+            try:
+                self.number_of_floors = self.number_of_floors + value
+            except TypeError:
+                print("Ошибка: введено не число.")
             return self
-        else:
-            return f'невозможно выполнить операцию объекты не соответствуют типам House и int'
+
 
     def __radd__(self, value):
-        if isinstance(self, House) and isinstance(value, int):
+        try:
             return House.__add__(self, value)
-        else:
-            return f'невозможно выполнить операцию объекты не соответствуют типам House и int'
+        except TypeError:
+            print("Ошибка: введено не число.")
+        return self
 
     def __iadd__(self, value):
-        if isinstance(self, House) and isinstance(value, int):
+        try:
             return House.__add__(self, value)
-        else:
-            return f'невозможно выполнить операцию объекты не соответствуют типам House и int'
+        except TypeError:
+            print("Ошибка: введено не число.")
+        return self
 
 # h1 = House('ЖК Горский', 18)
 # h2 = House('Домик в деревне', 2)
