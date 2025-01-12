@@ -26,56 +26,56 @@ class House:
         if isinstance(self, House) and isinstance(other, House):
             return self.number_of_floors == other.number_of_floors
         else:
-            print(f'невозможно сравнить, различные типы объектов ({type(self)} и {type(other)}')
+            return f'невозможно сравнить, различные типы объектов ({type(self)} и {type(other)}'
 
     def __lt__(self, other):
         if isinstance(self, House) and isinstance(other, House):
             return self.number_of_floors < other.number_of_floors
         else:
-            print(f'невозможно сравнить ({type(self)} и {type(other)}')
+            return f'невозможно сравнить ({type(self)} и {type(other)}'
 
     def __le__(self, other):
         if isinstance(self, House) and isinstance(other, House):
             return self.number_of_floors <= other.number_of_floors
         else:
-            print(f'невозможно сравнить ({type(self)} и {type(other)}')
+            return f'невозможно сравнить ({type(self)} и {type(other)}'
 
     def __gt__(self, other):
         if isinstance(self, House) and isinstance(other, House):
             return self.number_of_floors > other.number_of_floors
         else:
-            print(f'невозможно сравнить ({type(self)} и {type(other)}')
+            return f'невозможно сравнить ({type(self)} и {type(other)}'
 
     def __ge__(self, other):
         if isinstance(self, House) and isinstance(other, House):
             return self.number_of_floors >= other.number_of_floors
         else:
-            print(f'невозможно сравнить ({type(self)} и {type(other)}')
+            return f'невозможно сравнить ({type(self)} и {type(other)}'
 
     def __ne__(self, other):
         if isinstance(self, House) and isinstance(other, House):
             return self.number_of_floors != other.number_of_floors
         else:
-            print(f'невозможно сравнить ({type(self)} и {type(other)}')
+            return f'невозможно сравнить ({type(self)} и {type(other)}'
 
     def __add__(self, value):
         if isinstance(self, House) and isinstance(value, int):
             self.number_of_floors = self.number_of_floors + value
             return self
         else:
-            print(f'невозможно выполнить операцию объекты не соответствуют типам House и int')
+            return f'невозможно выполнить операцию объекты не соответствуют типам House и int'
 
     def __radd__(self, value):
         if isinstance(self, House) and isinstance(value, int):
             return House.__add__(self, value)
         else:
-            print(f'невозможно выполнить операцию объекты не соответствуют типам House и int')
+            return f'невозможно выполнить операцию объекты не соответствуют типам House и int'
 
     def __iadd__(self, value):
         if isinstance(self, House) and isinstance(value, int):
             return House.__add__(self, value)
         else:
-            print(f'невозможно выполнить операцию объекты не соответствуют типам House и int')
+            return f'невозможно выполнить операцию объекты не соответствуют типам House и int'
 
 # h1 = House('ЖК Горский', 18)
 # h2 = House('Домик в деревне', 2)
