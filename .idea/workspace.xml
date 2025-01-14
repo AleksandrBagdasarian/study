@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="'new and del'">
+    <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="'try/except'">
+      <change afterPath="$PROJECT_DIR$/module_5_additional_task.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_5_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_5_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,8 @@
     "Python.module_5_1.executor": "Run",
     "Python.module_5_2.executor": "Run",
     "Python.module_5_3.executor": "Run",
+    "Python.module_5_4.executor": "Run",
+    "Python.module_5_additional_task.executor": "Run",
     "Python.namespaces.executor": "Run",
     "Python.recursion_tasks.executor": "Run",
     "Python.true_math.executor": "Debug",
@@ -322,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736699330863</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="'try/except'">
+      <option name="closed" value="true" />
+      <created>1736701616624</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1736701616624</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +364,8 @@
     <MESSAGE value="'dunder'" />
     <MESSAGE value="'overload correct'" />
     <MESSAGE value="'new and del'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'new and del'" />
+    <MESSAGE value="'try/except'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'try/except'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -371,8 +382,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/module_5_3.py</url>
-          <line>28</line>
+          <line>25</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_5_additional_task.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
