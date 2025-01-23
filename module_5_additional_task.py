@@ -1,42 +1,56 @@
 import time
 
-class Database:
-    def __init__(self):
-        self.data = {}
-
-    def add_user(self, nickname, password):
-        self.data[nickname] = password
-database = Database()
 class User:
     def __init__(self, nickname, password, age):
         self.nickname = nickname
-        self.password = self.hash_password(password)
+        self.password = hash(password)
         self.age = age
-        database.add_user(nickname, password)
 
-
+class Video:
+    def __init__(self, title, duration, adult_mode):
+        self.title = title
+        self.duration = duration
+        self.time_now = 0
+        self.adult_mode = adult_mode
 
 
 class UrTube:
-    def __init__(self, users, videos, current_user):
-        self.users = users
-        self.videos = videos
-        self.current_user = user
+    def __init__(self):
+        self.users = []
+        self.videos = []
+        self.current_user = None
 
-    def log_in(self, nickname, password ):
-        pass
+    def log_out(self):
+        self.current_user = None
+        return
+
+    def log_in(self, nickname, password):
+        for i in self.users:
+            if i.nickname == nickname and i.password == hash(password):
+                self.current_user = i
+                return
+        print("Неверный логин или пароль")
+
+    def register(self,nickname, password, age):
+        for i in self.users:
+            if i.nickname == nickname:
+                print(f"Пользователь {nickname} уже существует")
+                return
+        new_user = User(nickname,password, age)
+        self.users.append(new_user)
+        self.current_user = new_user
 
 
-class Video:
-    def __init__(self, title, duration, time_now, adult_mode):
-        self.title = title
-        self.duration = duration
-        self.time_now = time_now
-        self.adult_mode = adult_mode
-        adult_mode = False
+
+
+
+
 
 if __name__ == '__main__':
-    u1 = User('Alex', 'Aleksandr', 29)
-    u2 = User('Evi', '26.06.1997', 27)
-    print(u1.nickname)
-    print(database['Alex'])
+    ur = UrTube()
+    ur.register('vasya_pupkin', 'lolkekcheburek', 13)
+    ur.register('urban_pythonist', 'iScX4vIJClb9YQavjAgF', 25)
+    ur.log_out()
+    print(ur.current_user)
+    ur.log_in('vasya_pupkin','lolkekcheburek')
+    print(ur.current_user)
