@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="'1st try'">
-      <change afterPath="$PROJECT_DIR$/workpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion_tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_5_additional_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_5_additional_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study" beforeDir="false" afterPath="$PROJECT_DIR$/study" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -32,12 +32,12 @@
     &quot;assignee&quot;: &quot;AleksandrBagdasarian&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AleksandrBagdasarian/study.git",
-    "accountId": "dc0ed3b1-c3cd-4865-95ef-e99ab2ea527b"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AleksandrBagdasarian/study.git&quot;,
+    &quot;accountId&quot;: &quot;dc0ed3b1-c3cd-4865-95ef-e99ab2ea527b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -398,14 +398,14 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_5_additional_task.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/workpage.py</url>
           <line>5</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_5_additional_task.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

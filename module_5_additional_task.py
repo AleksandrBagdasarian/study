@@ -7,7 +7,7 @@ class User:
         self.age = age
 
 class Video:
-    def __init__(self, title, duration, adult_mode):
+    def __init__(self, title, duration, adult_mode = False):
         self.title = title
         self.duration = duration
         self.time_now = 0
@@ -40,6 +40,23 @@ class UrTube:
         self.users.append(new_user)
         self.current_user = new_user
 
+    def add(self, *videos):
+        for vid in videos:
+            if not any(i.title == vid.title for i in self.videos):
+                self.videos.append(vid)
+
+    def get_videos(self, word):
+        word_low = word.lower()
+        search_list = []
+        for i in self.videos:
+            if word_low in i.title.lower():
+                search_list.append(i.title)
+        return search_list
+
+    # def watch_video(self, name):
+    #     for i in self.videos:
+    #         if name == i.title:
+    #             print
 
 
 
@@ -54,3 +71,8 @@ if __name__ == '__main__':
     print(ur.current_user)
     ur.log_in('vasya_pupkin','lolkekcheburek')
     print(ur.current_user)
+    v1 = Video('Лучший язык программирования 2024 года', 200)
+    v2 = Video('Для чего девушкам парень программист?', 10, adult_mode = True)
+    print(v1.title)
+    ur.add(v1, v2)
+    print(ur.videos)
