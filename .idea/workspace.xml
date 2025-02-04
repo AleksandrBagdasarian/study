@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="'2nd try'">
-      <change afterPath="$PROJECT_DIR$/recursion_tasks.py" afterDir="false" />
+    <list default="true" id="05ea091e-d6aa-46e6-bdd0-35db277019d5" name="Changes" comment="'finality'">
+      <change afterPath="$PROJECT_DIR$/module_6_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_5_additional_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_5_additional_task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +76,7 @@
     "Python.module_5_3.executor": "Run",
     "Python.module_5_4.executor": "Run",
     "Python.module_5_additional_task.executor": "Run",
+    "Python.module_6_1.executor": "Run",
     "Python.namespaces.executor": "Run",
     "Python.recursion_tasks.executor": "Run",
     "Python.true_math.executor": "Debug",
@@ -350,7 +350,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737711812679</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="'finality'">
+      <option name="closed" value="true" />
+      <created>1738243951537</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1738243951537</updated>
+    </task>
+    <task id="LOCAL-00032" summary="'finality'">
+      <option name="closed" value="true" />
+      <created>1738243971955</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1738243971955</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +401,8 @@
     <MESSAGE value="'try/except'" />
     <MESSAGE value="'1st try'" />
     <MESSAGE value="'2st try'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'2st try'" />
+    <MESSAGE value="'finality'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'finality'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -409,11 +426,6 @@
           <url>file://$PROJECT_DIR$/workpage.py</url>
           <line>5</line>
           <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_5_additional_task.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
